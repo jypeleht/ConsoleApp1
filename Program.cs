@@ -11,13 +11,21 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            string filename = @"tiedosto.txt";
 
-            for (int i = 0; i < 50; i++)
+            Console.WriteLine("Hello world");
+
+            if (!File.Exists(filename)) //Hyvähyvä!
+            {
+                File.WriteAllText(filename, "Eka rivi\n");
+            }
+
+            File.AppendAllText(filename, "Seuraava rivi¨\n");
+
+            for (int i = 0; i < 50; i++) //miksi juuri 50? Pitäisikö käyttää jotain muuttujaa?
             {
                 Console.WriteLine("Hei Jyri");
             }
-
-           
 
             Console.WriteLine("Hello world");
 
@@ -31,7 +39,10 @@ namespace ConsoleApp1
 
             File.WriteAllText("testitiedosto.txt", "Hello world");
 
-
+            Console.WriteLine(@"  _____                ");
+            Console.WriteLine(@" |_   _|__ _ ___ _____");
+            Console.WriteLine(@"   | |/ -_) '_\ V / -_)");
+            Console.WriteLine(@"   |_|\___|_|  \_/\___|");
         }
     }
 }
