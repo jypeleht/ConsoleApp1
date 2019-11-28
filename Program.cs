@@ -21,9 +21,9 @@ namespace ConsoleApp1
 
             Console.WriteLine("Hello world");
 
-             Console.WriteLine("Hei maailma!");
+            Console.WriteLine("Hei maailma!");
 
-
+            Console.WriteLine("Hei maailma");
 
             File.WriteAllText("testitiedosto.txt", "Hello world");
 
