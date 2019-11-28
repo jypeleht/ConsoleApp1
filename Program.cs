@@ -12,8 +12,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
-
-            File.WriteAllText("testitiedosto.txt", "Hello world");
+            Console.WriteLine("Hei maailma");
+            File.WriteAllText("testitiedosto.txt", "Hello world");1
         }
     }
 }
