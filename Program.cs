@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace ConsoleApp1
 {
@@ -11,6 +12,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world!!!"); //huutomerkit
+
             //isot alkukirjaimet + !-merkki
             Console.WriteLine("Hello World!");
 
@@ -46,6 +49,8 @@ namespace ConsoleApp1
             Console.WriteLine(@" |_   _|__ _ ___ _____");
             Console.WriteLine(@"   | |/ -_) '_\ V / -_)");
             Console.WriteLine(@"   |_|\___|_|  \_/\___|");
+          
+            Console.ReadKey();
         }
     }
 }
