@@ -11,6 +11,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
+            //Improving Jyri's code by adding another cw
+            Console.WriteLine("How u doin?");
         }
     }
 }
