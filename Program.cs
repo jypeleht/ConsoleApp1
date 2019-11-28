@@ -12,7 +12,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < 50; i++) //miksi juuri 50? Pitäisikö käyttää jotain muuttujaa?
             {
                 Console.WriteLine("Hei Jyri");
             }
