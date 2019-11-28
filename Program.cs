@@ -11,6 +11,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //isot alkukirjaimet + !-merkki
+            Console.WriteLine("Hello World!");
+
             string filename = @"tiedosto.txt";
 
             Console.WriteLine("Hello world");
