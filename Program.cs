@@ -10,7 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            for (int i = 0; i < 50; i++)
+            {
+                Console.WriteLine("Hei Jyri");
+            }
+
+           
         }
     }
 }
