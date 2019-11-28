@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            string filename = @"tiedosto.txt";
+
             Console.WriteLine("Hello world");
+            if (!File.Exists(filename))
+                File.WriteAllText(filename, "Eka rivi\n");
+
+
+            File.AppendAllText(filename, "Seuraava rivi¨\n");
         }
     }
 }
