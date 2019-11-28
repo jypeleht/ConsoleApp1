@@ -29,12 +29,16 @@ namespace ConsoleApp1
 
             Console.WriteLine("Hello world");
 
+            //Improving Jyri's code by adding another cw
+            Console.WriteLine("How u doin?");
+
+
             Console.WriteLine("Hei maailma!");
 
             Console.WriteLine("Hei maailma");
 
             File.WriteAllText("testitiedosto.txt", "Hello world");
-          
+
             Console.WriteLine(@"  _____                ");
             Console.WriteLine(@" |_   _|__ _ ___ _____");
             Console.WriteLine(@"   | |/ -_) '_\ V / -_)");
