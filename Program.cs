@@ -11,9 +11,22 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
+            for (int i = 0; i < 50; i++)
+            {
+                Console.WriteLine("Hei Jyri");
+            }
+
+           
+
             Console.WriteLine("Hello world");
+
+            Console.WriteLine("Hei maailma!");
+
             Console.WriteLine("Hei maailma");
+
             File.WriteAllText("testitiedosto.txt", "Hello world");
+
         }
     }
 }
