@@ -13,7 +13,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello world");
             Console.WriteLine("Hei maailma");
-            File.WriteAllText("testitiedosto.txt", "Hello world");1
+            File.WriteAllText("testitiedosto.txt", "Hello world");
         }
     }
 }
