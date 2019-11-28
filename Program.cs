@@ -11,11 +11,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
             string filename = @"tiedosto.txt";
 
             Console.WriteLine("Hello world");
-          
+
             if (!File.Exists(filename)) //Hyvähyvä!
             {
                 File.WriteAllText(filename, "Eka rivi\n");
@@ -35,6 +34,11 @@ namespace ConsoleApp1
             Console.WriteLine("Hei maailma");
 
             File.WriteAllText("testitiedosto.txt", "Hello world");
+          
+            Console.WriteLine(@"  _____                ");
+            Console.WriteLine(@" |_   _|__ _ ___ _____");
+            Console.WriteLine(@"   | |/ -_) '_\ V / -_)");
+            Console.WriteLine(@"   |_|\___|_|  \_/\___|");
         }
     }
 }
